@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Discord Music Bot",
+        "imageSrc": "projects/music_bot.png",
+        "description": "Developed a music bot that plays audio based on user query",
+        "skills": ["Python", "Google Cloud Console", "Youtube/Discord API"],
+        "demo": "",
+        "source": "https://github.com/virsworld/discord_bot.git"
+    },
+{
+        "title": "AI Reversi Bot",
+        "imageSrc": "projects/reversi.png",
+        "description": "Created a Reversi AI bot in C for a university course based on the Minimax Algorithm.",
+        "skills": ["C", "Artificial Intelligence"],
+        "demo": "",
+        "source": "https://github.com/virsworld/APS105_labs.git"
+    }
+]
