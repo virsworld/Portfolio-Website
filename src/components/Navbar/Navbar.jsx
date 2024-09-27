@@ -6,9 +6,13 @@ import {getImageUrl} from "../../utils";
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return <nav className={styles.navbar}>
-        <a className={styles.title} href="/">
-            {/* Vir Patel */}
-        </a>
+        <div className={styles.topLeft}>
+            <img 
+            className={styles.topLeftImg} 
+            src={getImageUrl("nav/logo.png")}
+            alt="logo"
+            />
+        </div>
         <div className={styles.menu}>
             <img 
                 className={styles.menuBtn} 
