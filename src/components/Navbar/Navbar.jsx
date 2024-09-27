@@ -7,11 +7,13 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return <nav className={styles.navbar}>
         <div className={styles.topLeft}>
-            <img 
-            className={styles.topLeftImg} 
-            src={getImageUrl("nav/logo.png")}
-            alt="logo"
-            />
+            <a href='/'>
+                <img 
+                className={styles.topLeftImg} 
+                src={getImageUrl("nav/logo.png")}
+                alt="logo"
+                />
+            </a>
         </div>
         <div className={styles.menu}>
             <img 
