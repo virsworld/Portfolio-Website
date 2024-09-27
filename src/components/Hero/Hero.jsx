@@ -12,7 +12,7 @@ export const Hero = () => {
                     I'm a Computer Engineering undergraduate student at the University of Toronto. 
                     Feel free to contact me to learn more!
                 </p>
-                <a className={styles.contactBtn} href="https://www.linkedin.com/in/vir-patel/">Contact Me</a>
+                <a className={styles.contactBtn} href="#about">About Me</a>
             </div>
             <img className={styles.heroImg} src={getImageUrl("hero/heroImage.png")} alt="Hero image of me"/>
             <div className={styles.topBlur}/>
